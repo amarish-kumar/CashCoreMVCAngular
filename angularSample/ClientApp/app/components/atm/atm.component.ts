@@ -9,7 +9,7 @@ export class AtmComponent {
 
     public requireAmount = 2;
     public amountAvailable: number;
-
+    public startWithDenominationValue: number = null
     public incrementCounter() {
         this.requireAmount++;
 
