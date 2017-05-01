@@ -1,0 +1,66 @@
+<h1>ATM with no security!</h1>
+
+<p>This is a simple example of an Angular 2 component.</p>
+
+<p>Current count: <strong>{{ requireAmount }}</strong></p>
+<input id="counter" type="number" ng-model="requireAmount"  value="{{requireAmount}}" >
+
+<button (click)="incrementCounter()">Increment</button>
+
+
+
+<div class="container">
+    <h3>ATM Form</h3>
+    <form >
+        <div class="form-group row col-md-4">
+            <label for="amountRequire">Amount Require</label>
+            <input class="form-control" id="amountRequire"  name="amountRequire" type="number" required  value=([requireAmount])>
+
+
+            <button (click)="wthdrawMoney()" class="btn btn-success">Submit</button>
+        </div>
+    </form>
+</div>
+
+<p *ngIf="!denominations"><em>Loading...</em></p>
+
+<table class='table' *ngIf="denominationsWithDrawn">
+    <thead>
+        <tr> <th>Money withdrawn from your account</th></tr>
+        <tr>
+            <th>denomination</th>
+            <th>quantity</th>
+            <th>value</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let denw of denominationsWithDrawn">
+            <td>{{ denw.denominationValue }}</td>
+            <td>{{ denw.quantity }}</td>
+            <td>{{ denw.denominationValue * denw.quantity}}</td>
+
+        </tr>
+    </tbody>
+</table>
+
+<p *ngIf="!denominations"><em>Loading...</em></p>
+
+<table class='table' *ngIf="denominations">
+    <thead>
+        <tr> <th>Available money in your account</th></tr>
+        <tr>
+            <th>denomination</th>
+            <th>quantity</th>
+            <th>value</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let den of denominations">
+            <td>{{ den.denominationValue }}</td>
+            <td>{{ den.quantity }}</td>
+            <td>{{ den.denominationValue * den.quantity}}</td>
+           
+        </tr>
+    </tbody>
+</table>
+

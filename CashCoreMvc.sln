@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtmUI", "angularSample\AtmUI.csproj", "{3842A784-2177-4874-83C3-1107D7C2CC0C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{57649BEF-83F7-47E5-AB6B-9B6229CFE2C5} = {57649BEF-83F7-47E5-AB6B-9B6229CFE2C5}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtmService", "AtmService\AtmService.csproj", "{57649BEF-83F7-47E5-AB6B-9B6229CFE2C5}"
 EndProject
