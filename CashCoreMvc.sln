@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtmUI", "angularSample\AtmUI.csproj", "{3842A784-2177-4874-83C3-1107D7C2CC0C}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -10,13 +10,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtmUI", "angularSample\AtmU
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtmService", "AtmService\AtmService.csproj", "{57649BEF-83F7-47E5-AB6B-9B6229CFE2C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtmLogic", "AtmLogic\AtmLogic.csproj", "{EC2A919D-4D7A-4214-9DA5-4D273DEDB5C7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtmModel", "AtmModel\AtmModel.csproj", "{1681E894-CBFE-4033-B251-6EB9AD784E4E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtmRepository", "AtmRepository\AtmRepository.csproj", "{D7CD4F47-B49E-4D6D-A849-A96C2D468BA9}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtmLogicTest", "AtmLogicTest\AtmLogicTest.csproj", "{4B31EFF2-5453-4494-BB47-4D564D0DC5C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtmModel", "AtmModel\AtmModel.csproj", "{29892120-8C6B-4D55-A362-4AD1B705E772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtmLogic", "AtmLogic\AtmLogic.csproj", "{B13F4705-603B-41EA-BCB5-DC1E8E673C0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtmRepository", "AtmRepository\AtmRepository.csproj", "{21548FDA-ED73-4C81-BA88-EC595C20F361}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,22 +32,22 @@ Global
 		{57649BEF-83F7-47E5-AB6B-9B6229CFE2C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57649BEF-83F7-47E5-AB6B-9B6229CFE2C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57649BEF-83F7-47E5-AB6B-9B6229CFE2C5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EC2A919D-4D7A-4214-9DA5-4D273DEDB5C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EC2A919D-4D7A-4214-9DA5-4D273DEDB5C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EC2A919D-4D7A-4214-9DA5-4D273DEDB5C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EC2A919D-4D7A-4214-9DA5-4D273DEDB5C7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1681E894-CBFE-4033-B251-6EB9AD784E4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1681E894-CBFE-4033-B251-6EB9AD784E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1681E894-CBFE-4033-B251-6EB9AD784E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1681E894-CBFE-4033-B251-6EB9AD784E4E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D7CD4F47-B49E-4D6D-A849-A96C2D468BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D7CD4F47-B49E-4D6D-A849-A96C2D468BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D7CD4F47-B49E-4D6D-A849-A96C2D468BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D7CD4F47-B49E-4D6D-A849-A96C2D468BA9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4B31EFF2-5453-4494-BB47-4D564D0DC5C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4B31EFF2-5453-4494-BB47-4D564D0DC5C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B31EFF2-5453-4494-BB47-4D564D0DC5C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B31EFF2-5453-4494-BB47-4D564D0DC5C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29892120-8C6B-4D55-A362-4AD1B705E772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29892120-8C6B-4D55-A362-4AD1B705E772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29892120-8C6B-4D55-A362-4AD1B705E772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29892120-8C6B-4D55-A362-4AD1B705E772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B13F4705-603B-41EA-BCB5-DC1E8E673C0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B13F4705-603B-41EA-BCB5-DC1E8E673C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B13F4705-603B-41EA-BCB5-DC1E8E673C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B13F4705-603B-41EA-BCB5-DC1E8E673C0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21548FDA-ED73-4C81-BA88-EC595C20F361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21548FDA-ED73-4C81-BA88-EC595C20F361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21548FDA-ED73-4C81-BA88-EC595C20F361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21548FDA-ED73-4C81-BA88-EC595C20F361}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

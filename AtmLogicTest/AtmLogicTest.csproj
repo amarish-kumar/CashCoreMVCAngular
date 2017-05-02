@@ -56,11 +56,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AtmLogic\AtmLogic.csproj">
-      <Project>{EC2A919D-4D7A-4214-9DA5-4D273DEDB5C7}</Project>
+      <Project>{b13f4705-603b-41ea-bcb5-dc1e8e673c0e}</Project>
       <Name>AtmLogic</Name>
     </ProjectReference>
     <ProjectReference Include="..\AtmModel\AtmModel.csproj">
-      <Project>{1681E894-CBFE-4033-B251-6EB9AD784E4E}</Project>
+      <Project>{29892120-8c6b-4d55-a362-4ad1b705e772}</Project>
       <Name>AtmModel</Name>
     </ProjectReference>
   </ItemGroup>

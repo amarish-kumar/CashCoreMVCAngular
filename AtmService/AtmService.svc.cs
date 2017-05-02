@@ -1,11 +1,13 @@
-﻿using AtmLogic;
-using AtmModel;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
+
+using AtmLogic;
+using AtmModel;
 
 namespace AtmService
 {
@@ -15,8 +17,8 @@ namespace AtmService
     {
         public List<Denomination> ProcessWithdrawal(double requireAmount)
         {
-            var defauklProcess = new ProcessWithdrawal();
-            var den = defauklProcess.WithdrawMoney(requireAmount);
+            var defaultProcess = new ProcessWithdrawal();
+            var den = defaultProcess.WithdrawMoney(requireAmount);
 
             return den;
         }

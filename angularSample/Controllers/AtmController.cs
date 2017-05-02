@@ -14,6 +14,7 @@ namespace AtmUI.Controllers
         [HttpGet("[action]")]
         public async Task<IEnumerable<Denomination>> ProcessWithdrawalAsync(double requireAmount)
         {
+
             var atm = await new AtmServiceClient().ProcessWithdrawalAsync(requireAmount);
 
             return atm;
