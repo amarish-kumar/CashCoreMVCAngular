@@ -27,13 +27,10 @@ namespace AtmLogic
         {
             var currentState = DenominationRepository.CurrentState;
 
-           var change = currentState.Where(x => x.DenominationValue == denomination).ToList();
             DenominationRepository.CurrentState.Where(x
                 => x.DenominationValue == denomination).Select(z
                 =>
                 { z.Quantity += quantity; return z; }).ToList();
-            // DenominationRepository.CurrentState;
-
 
             return currentState;
         }
