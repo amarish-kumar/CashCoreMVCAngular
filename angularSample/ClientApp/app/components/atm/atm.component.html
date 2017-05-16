@@ -11,15 +11,17 @@
 
 <div class="container">
     <h3>ATM Form</h3>
-    <form >
+    
         <div class="form-group row col-md-4">
-            <label for="amountRequire">Amount Require</label>
-            <input class="form-control" id="amountRequire"  name="amountRequire" type="number" required  value=([requireAmount])>
+            <label for="requireAmount">Amount Require</label>
+            <input [value]="requireAmount" (input)="requireAmount = $event.target.value">
 
+            <!--<input [(ngModel)]= "AtmComponent.requireAmount">-->
 
-            <button (click)="wthdrawMoney()" class="btn btn-success">Submit</button>
+            <button (click)="withdrawMoney()">withdraw</button>
+
         </div>
-    </form>
+   
 </div>
 
 <p *ngIf="!denominations"><em>Loading...</em></p>
